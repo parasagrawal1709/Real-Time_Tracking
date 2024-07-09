@@ -17,14 +17,14 @@ This application allows real-time tracking of users on a map using Leaflet and S
 ## Installation
 
 1. Clone the repository:
-     <button class="copy-btn" onclick="copyCommand('git clone <repository-url>')">Copy</button>
-     <button class="copy-btn" onclick="copyCommand('cd <repository-directory>')">Copy</button>
+     `git clone <https://github.com/parasagrawal1709/Real-Time_Tracking>`
+     `cd <repository-directory>`
      
 2. Install dependencies: 
-     <button class="copy-btn" onclick="copyCommand('npm install')">Copy</button>
+     `npm install`
 
 3. Start the server:
-    <button class="copy-btn" onclick="copyCommand('npm start')">Copy</button>
+    `npm start`
 
 4. Open the application in your browser: `http://localhost:3000`
 
