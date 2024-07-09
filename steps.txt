@@ -1,0 +1,18 @@
+Geolocation Support Check: Verify if the browser supports geolocation.
+
+Geolocation Options: Set options for high accuracy, a 5-second timeout, and no caching.
+
+Map Initialization: Initialize a Leaflet map centered at coordinates (0, 0) with a zoom level of 15, using OpenStreetMap tiles.
+
+Markers Object: Create an empty object named `markers` to store marker instances.
+
+Socket Integration: Establish a socket connection to emit and receive location data.
+
+Continuous Location Tracking: Use `watchPosition` to track the user's location continuously and emit latitude and longitude via the socket with the event name "send-location". Log any errors encountered to the console.
+
+Location Data Handling: When receiving location data via the socket:
+   - Extract `id`, `latitude`, and `longitude`.
+   - Center the map on the new coordinates.
+   - If a marker for the `id` exists, update its position; otherwise, create a new marker at the given coordinates and add it to the map.
+
+User Disconnection Handling: Remove the user's marker from the map and delete it from the `markers` object when a user disconnects from the socket.

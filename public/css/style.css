@@ -1,0 +1,19 @@
+/* Resetting default margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting full width and height for the HTML and body elements */
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevents scrollbars from appearing */
+}
+
+/* Styling the map container to occupy full width and height */
+#map {
+    width: 100%;
+    height: 100%;
+}
