@@ -17,12 +17,14 @@ This application allows real-time tracking of users on a map using Leaflet and S
 ## Installation
 
 1. Clone the repository:
-  `git clone <repository-url>`
-  `cd <repository-directory>`
+     <button class="copy-btn" onclick="copyCommand('git clone <repository-url>')">Copy</button>
+     <button class="copy-btn" onclick="copyCommand('cd <repository-directory>')">Copy</button>
+     
+2. Install dependencies: 
+     <button class="copy-btn" onclick="copyCommand('npm install')">Copy</button>
 
-2. Install dependencies: `npm install`
-
-3. Start the server: `npm start`
+3. Start the server:
+    <button class="copy-btn" onclick="copyCommand('npm start')">Copy</button>
 
 4. Open the application in your browser: `http://localhost:3000`
 
